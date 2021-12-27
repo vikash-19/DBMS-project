@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(trainBG.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+ 
+nav ul{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color:maroon;
+    font-size: 1.5em;
+    color:white;
+}
+
+/* nav{
+    position: fixed;
+    top : 0px ;
+    width : 100vw ;
+} */
+
+nav ul li{
+    padding:9px;
+    list-style-type: none;
+}
+#_admin{
+    color:tomato;
+    margin-left: auto;
+    font-size:0.8em;
+    border: 2px solid green;
+    padding-right: 5px;
+    /* background-color: rgb(146, 151, 100); */
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.options{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-100%,-70%);
+    display: flex;
+    list-style-type: none;
+    flex-flow: column nowrap;
+    flex-grow: 1;
+    font-size: 30px;
+    height: 55vh;
+    text-align:center;
+    aspect-ratio: 13/16;
+    background-color: rgba(199, 77, 77, 0.658);
+    width:min-content;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 3px black;
+    margin:119px 120px;
+    justify-content: space-between;
+    list-style-position: inside;
+    padding:50px 0;
+}
+.options li{
+    color: orange;
+    /* background-image: linear-gradient(to right, red, maroon); */
+    margin: 0;
+    padding: 0;
+}
+.options li a:hover{
+    text-decoration: 4px underline maroon;
+    cursor: pointer;
+    transition: text-decoration 1s;
+    color: orange;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 50px 80px;
+    margin-top : 100px;
+    padding: 40px;
+    width: 60%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    /* font-family:  cursive; */
+    text-align: center;
+    display: inline-block;
+    width: 250px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 1.2em;
+    border-radius: 8px;
+}
+
+label{
+    font-weight: bold;
+}
+
+.x input{
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 1.2em;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+    color : maroon;
+    margin-bottom: 20px;
+    /* background-color: white; */
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+
+.x{
+    display : inline ;
+}
+
+.passenger .form-group{
+    display : inline ;  
+}
+
+#age{
+    width : 80px;
+}
+
+.btn{
+    border : 2px solid black;
+    background :rgba(199, 77, 77, 0.658) ;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    background-color: maroon ;
+    color :rgba(201, 178, 48, 0.658)
+}
+
+select {
+    border-radius: 8px;
+    height: 35px;
+}

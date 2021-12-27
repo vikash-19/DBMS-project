@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(trainBG.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* nav{
+    position: fixed;
+    top : 0px ;
+    width : 100vw ;
+} */
+nav ul{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color:maroon;
+    font-size: 1.5em;
+    color:white;
+}
+
+nav ul li{
+    padding:9px;
+    list-style-type: none;
+}
+#_admin{
+    color:tomato;
+    margin-left: auto;
+    font-size:0.8em;
+    border: 2px solid green;
+    padding-right: 5px;
+    /* background-color: rgb(146, 151, 100); */
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.options{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-100%,-70%);
+    display: flex;
+    list-style-type: none;
+    flex-flow: column nowrap;
+    flex-grow: 1;
+    font-size: 30px;
+    height: 55vh;
+    text-align:center;
+    aspect-ratio: 13/16;
+    background-color: rgba(199, 77, 77, 0.658);
+    width:min-content;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 3px black;
+    margin:119px 120px;
+    justify-content: space-between;
+    list-style-position: inside;
+    padding:50px 0;
+}
+.options li{
+    color: orange;
+    /* background-image: linear-gradient(to right, red, maroon); */
+    margin: 0;
+    padding: 0;
+    /* flex-basis: 5px; */
+    /* flex-grow: 1; */
+}
+.options li a:hover{
+    text-decoration: 4px underline maroon;
+    cursor: pointer;
+    transition: text-decoration 1s;
+    color: orange;
+}
