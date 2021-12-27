@@ -170,3 +170,7 @@ table td,table th{
 table th{
     background-color: rgba(0, 255, 255, 0.637);
 }
+
+a:hover{
+    color:orange;
+}

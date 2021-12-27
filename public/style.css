@@ -20,7 +20,6 @@ nav ul{
     font-size: 1.5em;
     color:white;
 }
-
 nav ul li{
     padding:9px;
     list-style-type: none;
@@ -72,4 +71,49 @@ a{
     cursor: pointer;
     transition: text-decoration 1s;
     color: orange;
+}
+
+.container {
+    width : 60%;
+    /* text-align: center; */
+    /* justify-content: center; */
+    border: 2px solid white;
+    margin: 50px 80px;
+    padding: 40px;
+    padding-top : 60px ;
+    padding-bottom : 60px ;
+    /* width: 60%; */
+    border-radius: 28px;
+}
+
+.container h1{
+    /* width : 50%; */
+    /* margin-le */
+    /* margin-left : 200px; */
+    text-align: center;
+    color : maroon ;
+    font-weight: bolder;
+    margin-bottom : 30px;
+    text-decoration:underline;
+}
+
+.form-group{
+    display : block;
+    width : 100%;
+    font-size: 2em;
+    font-weight: bold;
+    margin-left : 210px ;
+    /* margin-top : 10px ;
+    margin-bottom :  10px ; */
+}
+
+.form-group a{
+    font-size: 1em;
+    transition : font-size 0.5s ;
+}
+
+.form-group:hover a{
+    color : maroon;
+    font-size: 0.7em;
+    
 }

@@ -26,126 +26,130 @@
 
     <div class="container">
         <h1>Book Ticket Now</h1>
-        <form action="noaction.php">
+        <form action =  "/book" method = "post">
             <div class = "x">
                 <div class="form-group x">
                     <label for="">From</label>
-                    <input type="text" name="" placeholder="From">
+                    <input type="text" name="starting_st" placeholder="From">
                 </div>
                 <div class="form-group x">
                     <label for="">To</label>
-                    <input type="text" name="" placeholder="To">
+                    <input type="text" name="ending_st" placeholder="To">
                 </div>
             </div>
             <div class="form-group">
                 <label for="">Train Number</label>
-                <input type="text" name="" placeholder="Train no">
+                <input type="number" name="train_no" placeholder="Train no">
             </div>
             <div class="form-group">
                 <label for="">Journey Date</label>
-                <input type="date" name="">
+                <input type="date" name="date">
             </div>
 
             <label for="">Passenger Details : <br></label>
             <div class="passenger">
                 <div class="form-group">
                     <label for="">1. </label>
-                    <input type="text" name="" placeholder="Pass. name">
+                    <input type="text" name="name1" placeholder="Pass. name">
                 </div>
                 <div class="form-group">
                     <label for=""></label>
-                    <input id="age" type="number" name="" placeholder="Age">
+                    <input id="age" type="number" name="age1" placeholder="Age">
                 </div>
                 <div class="form-group">
                     <label for="Gender">Gender</label>
-                    <select id="Gender" name="Gender" aria-placeholder="Gender">
-                        <option value="none">select</option>
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                        <option value="other">Other</option>
+                    <select id="Gender" name="Gender1" aria-placeholder="Gender">
+                        <option value="N">select</option>
+                        <option value="M">Male</option>
+                        <option value="F">Female</option>
+                        <option value="O">Other</option>
                     </select>
                 </div>
             </div>
             <div class="passenger">
                 <div class="form-group">
                     <label for="">2. </label>
-                    <input type="text" name="" placeholder="Pass. name">
+                    <input type="text" name="name2" placeholder="Pass. name">
                 </div>
                 <div class="form-group">
                     <label for=""></label>
-                    <input id="age" type="number" name="" placeholder="Age">
+                    <input id="age" type="number" name="age2" placeholder="Age">
                 </div>
                 <div class="form-group">
                     <label for="Gender">Gender</label>
-                    <select id="Gender" name="Gender" aria-placeholder="Gender">
-                        <option value="none">select</option>
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                        <option value="other">Other</option>
+                    <select id="Gender" name="Gender2" aria-placeholder="Gender">
+                        <option value="N">select</option>
+                        <option value="M">Male</option>
+                        <option value="F">Female</option>
+                        <option value="O">Other</option>
                     </select>
                 </div>
             </div>
             <div class="passenger">
                 <div class="form-group">
                     <label for="">3. </label>
-                    <input type="text" name="" placeholder="Pass. name">
+                    <input type="text" name="name3" placeholder="Pass. name">
                 </div>
                 <div class="form-group">
                     <label for=""></label>
-                    <input id="age" type="number" name="" placeholder="Age">
+                    <input id="age" type="number" name="age3" placeholder="Age">
                 </div>
                 <div class="form-group">
                     <label for="Gender">Gender</label>
-                    <select id="Gender" name="Gender" aria-placeholder="Gender">
-                        <option value="none">select</option>
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                        <option value="other">Other</option>
+                    <select id="Gender" name="Gender3" aria-placeholder="Gender">
+                        <option value="N">select</option>
+                        <option value="M">Male</option>
+                        <option value="F">Female</option>
+                        <option value="O">Other</option>
                     </select>
                 </div>
             </div>
             <div class="passenger">
                 <div class="form-group">
                     <label for="">4. </label>
-                    <input type="text" name="" placeholder="Pass. name">
+                    <input type="text" name="name4" placeholder="Pass. name">
                 </div>
                 <div class="form-group">
                     <label for=""></label>
-                    <input id="age" type="number" name="" placeholder="Age">
+                    <input id="age" type="number" name="age4" placeholder="Age">
                 </div>
                 <div class="form-group">
                     <label for="Gender">Gender</label>
-                    <select id="Gender" name="Gender" aria-placeholder="Gender">
-                        <option value="none">select</option>
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                        <option value="other">Other</option>
+                    <select id="Gender" name="Gender4" aria-placeholder="Gender">
+                        <option value="N">select</option>
+                        <option value="M">Male</option>
+                        <option value="F">Female</option>
+                        <option value="O">Other</option>
                     </select>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="">Pin Code : </label>
+                    <input type="text" name="pin_code" placeholder="pin_code">
                 </div>
             </div>
 
-
-
-
-
-
-
-            <!-- <div class="form-group">
-                <input type="text" name="" placeholder="Enter your Gender">
-            </div>
-            <div class="form-group">
-                <input type="text" name="" placeholder="Enter your Locality">
-            </div>
-            <div class="form-group">
-                <input type="text" name="" placeholder="Enter your Email Id">
-            </div>
-            <div class="form-group">
-                <input type="text" name="" placeholder="Enter your Phone Number">
-            </div> -->
-            <button class="btn">Book Now</button>
+            <button type = "submit" name = "book-ticket" class="btn">Book Now</button>
         </form>
     </div>
         
 
 </body>
 </html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/book" method = "post">
+        <input type="text" name = "abc" value =  "Hello"/>
+        <button type  = "submit" name = "btn"> submit </button>
+    </form>
+</body>
+</html> -->
